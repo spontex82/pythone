@@ -1,6 +1,6 @@
 def main() :
     votazione = []
-    print("Con la seguente funzione si può dare un giudizio (da 0 a 10) per valutare l'indice di gradimento del film")
+    print("Con la seguente funzione si può dare un giudizio (da 0 a 10) per valutare l'indice di gradimento del film (premere un qualsiasi tasto per terminare)")
     voto = input()
     while isNumberValid(voto) : 
         votazione.append(int(voto))
