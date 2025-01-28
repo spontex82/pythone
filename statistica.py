@@ -9,7 +9,7 @@ def main() :
     if lunghezzaVettore > 2 :
         votazione.remove(min(votazione))
         votazione.remove(max(votazione))
-        print("%.2f" %(sum(votazione) / len(votazione)))
+        print("La media delle votazioni è di: %.2f" %(sum(votazione) / len(votazione)))
     elif lunghezzaVettore > 0 & lunghezzaVettore < 2 :
         print("Non ho abbastanza valori per poter stimare una media corretta")
     else :
