@@ -19,7 +19,7 @@ def main() :
                 totale = totale - (totale / 100 * 20)
                 print("La tua spesa beneficia dello sconto del 20%. Hai speso", "%.2f" %(totale) + "€")
             else :
-                print("Non hai raggiunto la spesa minima per beneficiare dello sconto. Hai speso," "%.2f" %(totale) + "€")
+                print("Non hai raggiunto la spesa minima per beneficiare dello sconto. Hai speso", "%.2f" %(totale) + "€")
         else :
             print("Impossibile eseguire alcun conteggio perché non sono stati inseriti valori di spesa")
     else :
